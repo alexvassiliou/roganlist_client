@@ -1,6 +1,6 @@
-Roganlist.directive('GuestsDirective', function () {
+Roganlist.directive('guestsDirective', function () {
     return {
-        templateUrl: '/views/guests.html',
+        templateUrl: 'views/guests.html',
         controller: 'GuestController',
     }
 })

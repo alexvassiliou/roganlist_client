@@ -4,11 +4,9 @@ var Roganlist = angular.module('Roganlist', [
 Roganlist.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: '/views/guests.html'
+            templateUrl: 'views/guests.html'
         }).
         otherwise({
             redirectTo: '/'
         })
 });
-
-
